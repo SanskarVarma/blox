@@ -1,0 +1,45 @@
+Internship Projects Experience:
+-> Internship at nexalink:
+I built a lot of chatbots here where i used disnake a library of python to build discord centric chat-bots. these bots majorly interact with a SQL based database and provide several functionlity such as
+maintaining the ranking among user, giving attention of different tasks, pinning of messages in a group etc.
+These bots served as a useful tool for the game developers who were doing a unity developmet in a group, several communities had also used these bot to maintain several ranking among their posts or users.
+Bots named as GRAVITY BOT and POST_VOTE BOT was also released in the market on subscription basis by nexalink. 
+
+->At Atommic AI:
+Here i got introduced more widely to AI, so i built a combination of Dashboard and chatbots powered by the open AI LLMs and a MongoDB databases. 
+I had made several agents which were responsible for directly getting the result from the database just by writing the Natural language queries(TEXT->MongoDB query->RESULT).
+A multi personna app was built by me , which includes information about sales, purchase, inventory. I got to learn autogen , openAI llm calls, Rag implementation and a lot of other use cases around AI.
+Earlier the task of retrieval of data from the database was taking an average of 2-3 minutes for a new query by a data analyst .
+But now with my implmentation the results were presented in less that 15 seconds( < 5sec if RAG was used to get the result). 
+
+a. What did the system do?
+The sytems which i made were majorly user centric:
+1. For discord centric chat-bots ,range of functionality such as user ranking system, post ranking system, voting among a server, recommnedation feature, pinning and storing of 
+attention messages,timer for the user chat control was built by me.
+2. The dashboards and chatbots was user by a company which manages the restaurant chains in a city, this complete model proved as a very efficient way in data retrieval and majorly does the task of a data analyst.
+
+b.What other systems have you seen in the wild like that?
+The use case of (TEXT->MongoDB query->RESULT) was not widely available in the market in very efficient manner, other model such as (TEXT->SQL query->RESULT) is present since the data present in SQL is in very proper 
+structure as compared to Mongo DB data orientation. Systematic Prompt engineering when MongoDB is concerned has affected the model accuracy a lot too whle the development.
+
+c.How do you approach the development problem?
+I try to first make a flow of how i will continue the task and then first start with the optimal approach comes to my mind, while developing i try to optimize the approach further and try to cover the edge cases properly.
+Once a basic model is developed I test it out with several prompts and then further improve some edge cases if its still relevent. Testing out each block for my code help a lot in debugging at the end stage too.
+
+d.What were interesting aspects where you copied code from Stack Overflow?What did you learn from some very specific copy paste? Mention explicitly some of them.
+1. Not copied the complete code from the stack overflow directly but there was a case where i had to connect my project to an SSH which was very new for mw and i tried it for a very longer time but want able to resolve it,
+So the issue was finally resolved by a discussion in Stack Overflow.
+2. There was also an issue i faced when i was writing my termination logic for the autogen agentic conversation. 
+So a approach mentioned in the Stack Overflow discussion help me a lot in forming the complete termination condition.
+
+
+
+
+
+
+
+
+
+
+
+
