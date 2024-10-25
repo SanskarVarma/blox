@@ -1,0 +1,8 @@
+Since the solution of just 2 questions were required so I had posted the code of each of those question in the given python file.
+For the other questions too below is just a breif discription how would i have followed these approaches:
+->for JSON Parser question - i would have used pythons "Decimal" to get the arbitrary precision solved and after the procession i would have used the built-in json decoder to parse further
+->for API DEsigning question - i would have used a a simple starightforward approach of designing the 15 req/minute use case (it would just take 1 request per 4 seconds so that
+there is normalcy in the response AND each time there is an error in getting these request there will a 60 sec sleep period). BUT for 20 req/minute, I would use middleware in fastapi to get this done.
+
+Thanks for the assesment i really enjoyed the process of it. 
+Looking forward to hear from you. I would appreciate any recommendation/feedback in the code designing or the approaches I have followed.
